@@ -9,7 +9,7 @@ const StoreContexProvider = (props) => {
 
     const [cartItems, setCartItems] = useState({});
     
-    const url = "http://localhost:3000";
+    const url = "https://quick-bites-backend-z51x.onrender.com";
 
     const [token, setToken] = useState("");
     const [food_list, setFoodList] = useState([]);
