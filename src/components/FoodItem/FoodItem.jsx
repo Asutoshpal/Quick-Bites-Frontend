@@ -6,7 +6,7 @@ import { StoreContex } from '../../context/StoreContex';
 const FoodItem = ({ id, name, price, description, image }) => {
     // const [ itemCount, setItemCount ] = useState(0);
     const { cartItems, addToCart, removeFromCart } = useContext(StoreContex);
-    const url = "http://localhost:3000/"
+    const url = "https://quick-bites-frontend.onrender.com/"
 
   return (
       <div className='food-item'>
